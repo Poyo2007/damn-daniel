@@ -1,0 +1,30 @@
+{
+	"storyName": "DAMN DANIEL",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"daniel",
+		"bg",
+		"gf"
+	],
+	"songs": [
+		[
+			"ar ar ar ar ar",
+			"daniel",
+			[
+				255,
+				255,
+				195
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "DAMN DANIEL"
+}
