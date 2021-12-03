@@ -654,6 +654,18 @@ class PlayState extends MusicBeatState
 		add(dadGroup);
 		add(boyfriendGroup);
 		
+		var daninnocentTxt:FlxText;
+
+
+
+daninnocentTxt = new FlxText(876, 648, 348);
+daninnocentTxt.text = "PORTED BY RP4";
+daninnocentTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+daninnocentTxt.scrollFactor.set();
+add(daninnocentTxt);
+
+daninnocentTxt.cameras = [camHUD];
+		
 		if(curStage == 'spooky') {
 			add(halloweenWhite);
 		}
